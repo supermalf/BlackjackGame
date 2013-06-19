@@ -1,0 +1,239 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A27B204A15925DA000192112 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A27B204915925DA000192112 /* main.cpp */; };
+		A27B204C15925DA000192112 /* Blackjack_Game.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = A27B204B15925DA000192112 /* Blackjack_Game.1 */; };
+		A2CF1D611592697F00AB9D6B /* deck.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A2CF1D601592697F00AB9D6B /* deck.cpp */; };
+		A2CF1D6415926E1F00AB9D6B /* hand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A2CF1D6315926E1F00AB9D6B /* hand.cpp */; };
+		A2DBE6131593D561001AEF8A /* card.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A2DBE6121593D561001AEF8A /* card.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A27B204315925DA000192112 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				A27B204C15925DA000192112 /* Blackjack_Game.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A27B204515925DA000192112 /* Blackjack Game */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Blackjack Game"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A27B204915925DA000192112 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A27B204B15925DA000192112 /* Blackjack_Game.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Blackjack_Game.1; sourceTree = "<group>"; };
+		A27B205215925DB100192112 /* card.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = card.h; sourceTree = "<group>"; };
+		A27B205315925DBB00192112 /* hand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hand.h; sourceTree = "<group>"; };
+		A27B205415925DC600192112 /* deck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = deck.h; sourceTree = "<group>"; };
+		A2CF1D601592697F00AB9D6B /* deck.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = deck.cpp; sourceTree = "<group>"; };
+		A2CF1D6315926E1F00AB9D6B /* hand.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = hand.cpp; sourceTree = "<group>"; };
+		A2CF1D651592807800AB9D6B /* blackjack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = blackjack.h; sourceTree = "<group>"; };
+		A2DBE6121593D561001AEF8A /* card.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = card.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A27B204215925DA000192112 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A27B203A15925DA000192112 = {
+			isa = PBXGroup;
+			children = (
+				A27B204815925DA000192112 /* Blackjack Game */,
+				A27B204615925DA000192112 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A27B204615925DA000192112 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A27B204515925DA000192112 /* Blackjack Game */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A27B204815925DA000192112 /* Blackjack Game */ = {
+			isa = PBXGroup;
+			children = (
+				A2DBE6121593D561001AEF8A /* card.cpp */,
+				A27B204915925DA000192112 /* main.cpp */,
+				A27B204B15925DA000192112 /* Blackjack_Game.1 */,
+				A27B205215925DB100192112 /* card.h */,
+				A27B205315925DBB00192112 /* hand.h */,
+				A27B205415925DC600192112 /* deck.h */,
+				A2CF1D601592697F00AB9D6B /* deck.cpp */,
+				A2CF1D6315926E1F00AB9D6B /* hand.cpp */,
+				A2CF1D651592807800AB9D6B /* blackjack.h */,
+			);
+			path = "Blackjack Game";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A27B204415925DA000192112 /* Blackjack Game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A27B204F15925DA000192112 /* Build configuration list for PBXNativeTarget "Blackjack Game" */;
+			buildPhases = (
+				A27B204115925DA000192112 /* Sources */,
+				A27B204215925DA000192112 /* Frameworks */,
+				A27B204315925DA000192112 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Blackjack Game";
+			productName = "Blackjack Game";
+			productReference = A27B204515925DA000192112 /* Blackjack Game */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A27B203C15925DA000192112 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = A27B203F15925DA000192112 /* Build configuration list for PBXProject "Blackjack Game" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A27B203A15925DA000192112;
+			productRefGroup = A27B204615925DA000192112 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A27B204415925DA000192112 /* Blackjack Game */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A27B204115925DA000192112 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A27B204A15925DA000192112 /* main.cpp in Sources */,
+				A2CF1D611592697F00AB9D6B /* deck.cpp in Sources */,
+				A2CF1D6415926E1F00AB9D6B /* hand.cpp in Sources */,
+				A2DBE6131593D561001AEF8A /* card.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A27B204D15925DA000192112 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A27B204E15925DA000192112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A27B205015925DA000192112 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A27B205115925DA000192112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A27B203F15925DA000192112 /* Build configuration list for PBXProject "Blackjack Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A27B204D15925DA000192112 /* Debug */,
+				A27B204E15925DA000192112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A27B204F15925DA000192112 /* Build configuration list for PBXNativeTarget "Blackjack Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A27B205015925DA000192112 /* Debug */,
+				A27B205115925DA000192112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A27B203C15925DA000192112 /* Project object */;
+}
